@@ -83,6 +83,25 @@ From the final analysis, the reversible switched network achieved:
 
 This project gave me practical exposure to a hardware-oriented research workflow: understanding the theory, designing logic blocks, simulating the design, checking outputs, and comparing performance metrics. It also helped me connect my electronics background with topics that are relevant to AI hardware, low-power computation, and emerging computing architectures.
 
+## Current Limitations
+
+- This repository documents my thesis design and simulation results, but it does not include the original QCA Designer project files.
+- The work focuses on QCA-level circuit design and simulation, not hardware fabrication.
+- The results are based on the simulation setup used in the thesis, so any further comparison would need the same tool settings and assumptions.
+
+## Future Improvements
+
+If I continued this project, I would like to:
+
+- Recreate the main circuit blocks in a cleaner reusable QCA project structure.
+- Compare the proposed design with more recent reversible QCA network designs.
+- Add clearer timing diagrams for each sub-block.
+- Study how reversible logic and QCA concepts connect with low-power AI hardware and edge computing.
+
 ## Project Type
 
 Bachelor's thesis project, Electronics and Communication Engineering.
+
+## Resume Summary
+
+Designed and simulated a reversible switched network using Quantum Dot Cellular Automata, including reversible logic blocks such as Fredkin, Toffoli, Peres, multiplexer, demultiplexer, and crossbar switch circuits. Evaluated the final design using cell count, area, simulation time, energy dissipation, and power consumption.
